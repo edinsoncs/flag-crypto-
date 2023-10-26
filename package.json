@@ -1,0 +1,31 @@
+{
+  "name": "countryflagmin",
+  "version": "0.0.6",
+  "type": "module",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "author": "EdinsonCS",
+  "license": "MIT",
+  "unpkg": "dist/index.umd.js",
+  "keywords": [
+        "crypto",
+        "flag country",
+        "cryptocurrency",
+        "tokens svg crypto",
+        "api flag",
+        "blockchain"
+  ],
+  "scripts": {
+        "build": "microbundle",
+        "dev": "microbundle watch"
+  },
+  "devDependencies": {
+        "jest": "^29.7.0",
+        "microbundle": "^0.15.1"
+  },
+  "repository": {
+        "type": "git",
+        "url": "git+https://github.com/edinsoncs/flag-crypto-"
+  }
+}
